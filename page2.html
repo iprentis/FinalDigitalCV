@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <style> 
+         *{font-family:'Lora', serif;font-size:22px;}
+        ul {list-style:none;
+            border:solid 2px rgb(237, 156, 170);
+            display:inline-block;
+            padding-left:0;
+            margin-top:0;}
+        li a {text-decoration:none;
+             background-color:pink;
+             color:white;
+            display:block;
+            width:90px;
+            padding-top:20px;
+            padding-bottom:15px;
+            text-align:center;}
+            li a:hover {background-color:rgb(237, 156, 170);}
+            li a.active {background-color:rgb(237, 156, 170);}
+            li {float:left;}
+            .header {border:solid pink;
+                    padding-bottom:30px;
+                    text-align:center;}
+            .footer {border:solid 2px pink;
+                    padding-bottom:30px;}
+            .grid {display:flex;
+                    flex-direction:row;
+                margin-bottom:10px;
+                margin-top:10px;}
+            .div1 {border:solid 2px pink;
+                    flex:1;
+                text-align:center;}
+            .div2 {border:solid 2px pink;
+                    flex:1;
+                text-align:center;}
+            .div3 {border:solid 2px pink;
+                    flex:1;
+                    text-align:center;}
+            Body {background-color: rgb(244, 229, 238);}
+            
+            
+        </style>
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="page.html">Bio</a></li>
+            <li><a class="active" href="page2.html">Friends</a></li>
+            <li><a href="page3.html">Intrests</a></li>
+            <li><a href="page4.html">Contact</a></li>
+            <li><a href="page5.html">Skills</a></li>
+        </ul>
+        <div class="header">Cute Memories</div>
+        <div class="grid">
+            <div class="div1">
+                <p>This summer I went to Greece to meet my boyfriends family, my boyfriend is from Greece and I met him at Elon last year. Here is a video of the view from a deck on an island called Crete in Greece.</p>
+                <video controls width="400">
+                    <source src="filtered-7505CD5A-95E3-4441-8369-3F00F3F60971.mov" type="video/mp4">
+                </video>
+        </div>
+            <div class="div2">
+                <p>Two of my friends from San Francisco are named Ashley and Clara and here is a photo of us all together:</p>
+                <img src="IMG_1044 2.jpg" width="400" alt="Photo of me with Ashley and Clara">
+            </div>
+            <div class="div3">
+                <p>This is a photo of just me a few of my friends at Elon</p>
+                <img src="IMG_fr.jpg" width="400" alt="Photo of my friend Claire taking photos when she was 15">
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
